@@ -9,9 +9,7 @@ Pod::Spec.new do |s|
 
     s.platform          = :ios
     # change the source location
-    #s.source            = { :http => 'http://localhost:8080/XCFrameworkTest.zip' } 
-
-    s.source            = { :path => '/CardIO.xcframework' } 
+    #s.source            = { :http => 'https://github.com/Mashain/CardIO.zip' }
     s.source_files   = '**/*.{h,m}'
     s.preserve_paths = '**/*.{h,m}'
     s.ios.deployment_target = '12.0'
